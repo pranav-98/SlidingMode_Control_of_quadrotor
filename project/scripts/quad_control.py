@@ -269,7 +269,7 @@ class Quadrotor():
         
 
 
-# odometry callback function (DO NOT MODIFY)
+# odometry callback function 
     def odom_callback(self, msg):
         if self.t0 == None:
             self.t0 = msg.header.stamp.to_sec()
